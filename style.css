@@ -57,11 +57,34 @@
 }
 .btn{
     padding: 10px;
-    background-color: yellowgreen;
+    background-color: seagreen;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
 }
 .btn:hover{
     color: #dff2d4;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-title{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15px;
+    
+}
+.aboutus-container{
+    background-color: #F5EDEF;
+}
+.description2{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(2, 31, 14);
+    margin-left: 5px;
 }
